@@ -3726,6 +3726,25 @@
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
+			margin: 0px;
+			padding: 0;
+			position: absolute;
+			top: 0;
+		}
+
+		/* Estilo logo MDA */
+		#header > .logo img {
+			max-height: 47px;
+			max-width: 90px;
+			height: auto !important;
+			}
+
+		/* Estilo texto logo MDA */
+		#header > .logoText {
+			display: inline-block;
+			height: inherit;
+			left: 6.5em;
+			line-height: inherit;
 			margin: 0;
 			padding: 0;
 			position: absolute;
