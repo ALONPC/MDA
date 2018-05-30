@@ -9,4 +9,6 @@ export class FooterComponent {
 
   constructor() { }
 
+  public anio:number = new Date().getFullYear();
+
 }
