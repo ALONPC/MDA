@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+/*
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Reset */
+
+#footer img {
+  max-width: 30%;
+  max-height: 100%;
+  /* margin-bottom: 30px; */
+}
+
+#footer .contact {
+  color: #bbb;
+  display: grid;
+  float: left;
+}
