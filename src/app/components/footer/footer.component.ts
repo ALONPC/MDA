@@ -11,4 +11,8 @@ export class FooterComponent {
 
   public anio:number = new Date().getFullYear();
 
+  public direccion:string = "Compañía #2540 Oficina 103, Santiago";
+  public correo:string = "mda.arq@gmail.com";
+  public telefono:number = 26825253;
+
 }

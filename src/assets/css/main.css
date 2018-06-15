@@ -3708,7 +3708,7 @@
 	}
 
 	#header {
-		background: #5d596d; /*Color navbar*/
+		background: #4d4d33; /*Color navbar*/
 		color: #a6a6a6;
 		cursor: default;
 		height: 3.25em;
@@ -4301,8 +4301,8 @@
 /* Footer */
 
 	#footer {
-		padding: 1rem 0 1rem 0 ;
-		background: #5d596d; /* Color footer */
+		padding: 2rem 0 1rem 0 ;
+		background: #4d4d33; /* Color footer */
 		/* text-align: center; */
 	}
 
