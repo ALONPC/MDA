@@ -1821,7 +1821,9 @@
 				border-radius: 0;
 			}
 
+		/* HEADER ICONO */
 		.box header h2 {
+			font-weight: 100; /* IMPORTANTE */
 			margin-bottom: 2rem;
 		}
 
