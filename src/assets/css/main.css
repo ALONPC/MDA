@@ -3739,18 +3739,20 @@
 			max-height: 47px;
 			max-width: 90px;
 			height: auto !important;
-			}
+			margin-top: 0.8%;
+		}
 
 		/* Estilo texto logo MDA */
 		#header > .logoText {
 			display: inline;
 			height: inherit;
-			left: 6.5em;
+			left: 4.8em;
 			line-height: inherit;
-			margin-top: 1%; /*Deja el texto justo inline con el logo*/
+			margin-top: 0.8%; /*Deja el texto justo inline con el logo*/
 			padding: 0;
 			position: absolute;
 			top: 0;
+			font-size: 1.4vw; /* Texto responsive */
 		}
 
 			#header > .logo a {
