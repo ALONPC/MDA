@@ -3713,7 +3713,7 @@
 		background: #000; /*Color navbar*/
 		color: #a6a6a6;
 		cursor: default;
-		height: 3.25em;
+		height: 3.5em;
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
@@ -3731,7 +3731,6 @@
 			margin: 0px;
 			padding: 0;
 			position: absolute;
-			top: 0;
 		}
 
 		/* Estilo logo MDA */
@@ -3739,11 +3738,10 @@
 			max-height: 47px;
 			max-width: 90px;
 			height: auto !important;
-			margin-top: 0.8%;
 		}
 
 		/* Estilo texto logo MDA */
-		#header > .logoText {
+		#header > .logo-text {
 			display: inline;
 			height: inherit;
 			left: 4.8em;

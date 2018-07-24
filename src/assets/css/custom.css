@@ -41,7 +41,8 @@ box .shadow {
 }
 
 .inner h1{
-  font-weight: 100 !important;
+  font-size: 2.1rem;
+  font-weight: 400 !important;
   padding-bottom: 1.5em;
 }
 
@@ -66,6 +67,10 @@ h2, h3{
   font-size: 8vw !important;
 }
 /* FIN BANNER */
+
+.box h3{
+  font-size: 1.5rem !important;
+}
 
 h2 img{
   height: 30%; width: 30%; padding-top: 10%;
