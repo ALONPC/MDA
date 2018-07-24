@@ -14,19 +14,6 @@
   color: #bbb;
 }
 
-/* #footer .bg{
-  background-color: #000;
-  color: #bfbfbf;
-  background-image: url(../../assets/images/oficina02.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top;
-  position: relative;
-  -webkit-filter: brightness(35%);
-  filter: brightness(35%);
-} */
-
 #footer.wrapper.style3.bg{
     background-color: #000;
     color: #bfbfbf;
@@ -35,22 +22,33 @@
     background-attachment: fixed;
     background-position: center;
     position: relative;
-    padding: 3rem 3rem;
+    padding: 2rem 2rem;
 }
 
-.contact h1{
-  font-size: 1.5rem;
+@media screen and (max-width: 360px) {
+
 }
 
-.contact h2{
+.contact h5{ /*FONTAWESOME*/
+  padding-top: 0.4em;
+  font-size: 2.2rem;
+}
+
+.contact h2{ /* CORREO */
   font-size: 1.5rem;
   letter-spacing: 0.0625em;
   word-spacing: -0.3em;
+  font-weight: 800;
 }
 
-.contact h6{
+.contact h6{ /* DIRECCION */
   padding-top: 0.4em;
+  padding-bottom: 0.4em;
   font-size: 1.1rem;
+}
+
+.creditos{
+  padding-top: 2em;
 }
 
 /* .contact h5{

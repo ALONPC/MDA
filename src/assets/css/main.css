@@ -3353,7 +3353,7 @@
 					background-color: rgba(255, 255, 255, 0.5);
 				}
 
-			.wrapper.style3:before {
+			.wrapper.style3:before { /* FONDO2 */
 				-moz-transition: opacity 3s ease;
 				-webkit-transition: opacity 3s ease;
 				-ms-transition: opacity 3s ease;

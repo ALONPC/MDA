@@ -3,11 +3,17 @@
       <div class="container">
         <div class="row contact">
           <div class="col-lg align-center">
-            <h1><span class="fa fa-envelope-o"></span></h1>
-            <h2>{{ correo }}</h2>
-            <h6>{{ direccion }}</h6>
-            <h6>(2){{ telefono }}</h6>
-            &copy; MDA {{ anio }}. Todos los derechos reservados.
+            <header class="align-center">
+              <h5><span class="fa fa-envelope-o"></span></h5>
+              <!-- <p style="margin-bottom: 5%;"></p> -->
+              <h6>Fono: (2){{ telefono }}</h6>
+              <h2>{{ correo }}</h2>
+              <h6>{{ direccion }}</h6>
+            </header>
+
+
+            <div class="creditos">&copy; MDA {{ anio }}. Todos los derechos reservados.</div>
+
           </div>
         </div>
       </div>
