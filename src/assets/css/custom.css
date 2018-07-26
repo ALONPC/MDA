@@ -22,11 +22,27 @@
     background-attachment: fixed;
     background-position: center;
     position: relative;
-    padding: 2rem 2rem;
+    padding: 4em 0 1em 0;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
+  #footer.wrapper.style3.bg{
+      background-color: #000;
+      color: #bfbfbf;
+      background-image: url(../../assets/images/oficina01.jpg); /* FONDO */
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      position: relative;
+      padding: 7em 0 3em 0;
+  }
+}
 
+@media screen and (max-width: 480px) {
+  #header > .logo-text {
+    display: inline;
+    font-size: 0.7rem; /* Texto responsive */
+  }
 }
 
 .contact h5{ /*FONTAWESOME*/
@@ -34,22 +50,50 @@
   font-size: 2.2rem;
 }
 
-.contact h2{ /* CORREO */
+.contact h4{ /* CORREO */
   font-size: 1.5rem;
   letter-spacing: 0.0625em;
   word-spacing: -0.3em;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .contact h6{ /* DIRECCION */
   padding-top: 0.4em;
   padding-bottom: 0.4em;
   font-size: 1.1rem;
+  }
+  .creditos{
+    font-size: 0.8em;
+    padding-top: 4em;
+  }
 }
 
-.creditos{
-  padding-top: 2em;
+@media screen and (max-width: 480px) {
+  .contact h5{ /*FONTAWESOME*/
+    padding-top: 0.4em;
+    font-size: 1.2em;
+  }
+
+  .contact h4{ /* CORREO */
+    font-size: 0.3em;
+    letter-spacing: 0.0625em;
+    font-weight: 400;
+  }
+
+  .contact h6{ /* DIRECCION */
+    font-size: 0.8em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+
+  }
+
+  .creditos{
+    font-size: 0.6em;
+    padding-top: 2em;
+  }
 }
+
+
 
 /* .contact h5{
   font-size: 1.1rem;
@@ -67,6 +111,30 @@ box .shadow {
   padding-bottom: 1.5em;
 }
 
+.inner h2{
+  font-size: 2em;
+  font-weight: 400 !important;
+}
+
+/* VISUALIZACION DESDE MOVIL */
+@media screen and (max-width: 480px) {
+  .inner h1{
+    font-size: 1.5em;
+    font-weight: 400 !important;
+    padding-bottom: 1.5em;
+  }
+
+  .inner h2{
+    font-size: 1.5em;
+    font-weight: 400 !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .box h3{
+    font-size: 1.2em;
+  }
+}
 
 /*
   En caso de usar row en vez de inner
@@ -85,13 +153,19 @@ h2, h3{
 }
 
 .titulo h2{
-  font-size: 8vw !important;
+  font-size: 4rem !important;
+}
+/* Cuando se visualiza desde un celular, se ve mas proporcionado */
+@media screen and (max-width: 480px) {
+  .titulo h2{
+    font-size: 2rem !important;
+  }
 }
 /* FIN BANNER */
 
-.box h3{
+/* .box h3{
   font-size: 1.5rem !important;
-}
+} */
 
 h2 img{
   height: 30%; width: 30%; padding-top: 10%;
