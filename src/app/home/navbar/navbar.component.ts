@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
-  constructor() { }
+  options: any = [];
+
+  constructor() { 
+    this.options = ['Inicio', 'Articulos técnicos'];
+  }
+
 
 }
