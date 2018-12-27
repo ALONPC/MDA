@@ -1,7 +1,9 @@
 # MDA Constructora Pagina Web
-Hecha por Alonso Berrios
+Made by Alonso Berrios
+
+http://www.mdaconstructora.com/
 
 Powered by Angular. Template Hielo by Templated.co
 
-http://www.mdaconstructora.com/
+
 
